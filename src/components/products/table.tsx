@@ -1,7 +1,13 @@
 import { IProduct } from "@/interfaces/IProduct";
 
-import { Table, TableRow, TableHeader, TableHead, TableBody, TableCell } from "../ui/table";
-
+import {
+  Table,
+  TableRow,
+  TableHeader,
+  TableHead,
+  TableBody,
+  TableCell,
+} from "../ui/table";
 
 export async function ProductsTable({ products }: { products: IProduct[] }) {
   return (
